@@ -27,7 +27,7 @@ class Vexio < Formula
   depends_on "gmp"
   depends_on "libpqxx"
   depends_on "libusb"
-  depends_on macos: :mojave
+  depends_on macos: :big_sur
   depends_on "openssl@1.1"
   def install
     raise "Error, only supporting binary packages at this time"
