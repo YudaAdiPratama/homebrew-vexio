@@ -9,6 +9,11 @@ class Vexio < Formula
 
   bottle do
     root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.0"
+    sha256 big_sur: "5dc376aa20241233b76e2ec2c1d4e862443a0250916b2838a1ff871e8a6dc2c5"
+  end
+  
+  bottle do
+    root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.0"
     sha256 mojave: "c3f66cdf5fb02469a9e8d11cb2637eb347ba44b2b68ef77d84bdb1401d6bb685"
   end
 
