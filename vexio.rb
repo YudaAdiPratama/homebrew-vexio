@@ -22,7 +22,7 @@ class Vexio < Formula
   
    bottle do
       root_url "https://github.com/vexanium/vexio/releases/download/v1.7.0"
-      sha256 "5dc376aa20241233b76e2ec2c1d4e862443a0250916b2838a1ff871e8a6dc2c5" => :big_sur
+      sha256 "eab3fbc3688aecec0fe90b8d0fe3cb7beb84ed773ba0411fc2f855c66deaf882" => :big_sur
    end
    def install
       raise "Error, only supporting binary packages at this time"
