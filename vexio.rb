@@ -28,4 +28,3 @@ class Vexio < Formula
      raise "Error, only supporting binary packages at this time"
    end
  end
- __END__
