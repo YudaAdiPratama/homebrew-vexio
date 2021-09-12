@@ -3,7 +3,8 @@
 
 class Vexio < Formula
    homepage "https://github.com/YudaAdiPratama/vexio"
-   url "https://github.com/YudaAdiPratama/vexio/archive/v1.7.0.tar.gz"
+   url "https://github.com/YudaAdiPratama/vexio/archive/vexio-1.7.0.mojave.bottle.tar.gz
+   "
    version "1.7.0"
    revision 0
  
