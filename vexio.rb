@@ -24,7 +24,7 @@ class Vexio < Formula
 
    bottle do
       root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.4"
-      sha256 "5dc376aa20241233b76e2ec2c1d4e862443a0250916b2838a1ff871e8a6dc2c5" => :big_sur
+      sha256 "a9ae578b05c3da46cedc07dd428d94a856aeae7f3ef80a0f405bf89b8cde893a" => :arm64_big_sur
    end
    def install
       raise "Error, only supporting binary packages at this time"
