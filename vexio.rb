@@ -3,14 +3,9 @@
 
 class Vexio < Formula
    homepage "https://github.com/YudaAdiPratama/vexio"
-   url "https://github.com/YudaAdiPratama/vexio/archive/vexio-1.7.0.mojave.bottle.tar.gz"
+   url "https://github.com/YudaAdiPratama/vexio/archive/v1.7.4.tar.gz"
    version "1.7.0"
    revision 0
- 
-   bottle do
-     root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.0"
-     sha256 catalina: "b1562e0e2d97288104839884871212d4c2ab1b54b0764aa9bb5f24bb1d5d37ab"
-   end
  
    bottle do
      root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.0"
@@ -28,3 +23,4 @@ class Vexio < Formula
      raise "Error, only supporting binary packages at this time"
    end
  end
+__END__
