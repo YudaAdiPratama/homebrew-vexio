@@ -19,12 +19,12 @@ class Vexio < Formula
    depends_on "graphviz" => :build
    depends_on "lcov" => :build
    depends_on :xcode => :build
-   depends_on :macos => :big_sur
+   depends_on :macos => :high_sierra
    depends_on :arch =>  :intel
 
    bottle do
       root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.4"
-      sha256 "a9ae578b05c3da46cedc07dd428d94a856aeae7f3ef80a0f405bf89b8cde893a" => :arm64_big_sur
+      sha256 "44b9ab6e8d75212e888095e872cc101d2c4cc9d747d15696924868836e7988f9" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
