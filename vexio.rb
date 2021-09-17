@@ -1,4 +1,5 @@
 class Vexio < Formula
+  
   homepage "https://github.com/YudaAdiPratama/vexio"
   revision 0
   url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.4/vexio-1.7.4.big_sur.bottle.tar.gz"
