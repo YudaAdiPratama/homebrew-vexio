@@ -2,12 +2,12 @@ class Vexio < Formula
   
   homepage "https://github.com/YudaAdiPratama/vexio"
   revision 0
-  url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.4/vexio-1.7.4.big_sur.bottle.tar.gz"
+  url "https://github.com/YudaAdiPratama/vexio/archive/v1.7.4.tar.gz"
   version "1.7.4"
 
   option :universal
 
-  depends_on "cmake" => :build
+   depends_on "cmake" => :build
    depends_on "automake" => :build
    depends_on "libtool" => :build
    depends_on "wget" => :build
