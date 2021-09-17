@@ -22,7 +22,7 @@ class Vexio < Formula
 
    bottle do
       root_url "https://github.com/YudaAdiPratama/vexio/releases/download/v1.7.4"
-      sha256 "44b9ab6e8d75212e888095e872cc101d2c4cc9d747d15696924868836e7988f9" => :mojave
+      sha256 "digest" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
